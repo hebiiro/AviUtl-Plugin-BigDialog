@@ -1,0 +1,847 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include <windows.h>
+#include <commctrl.h>
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+CONTEXT MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "メディアオブジェクトの追加"
+        BEGIN
+            POPUP "カメラ制御"
+            BEGIN
+                MENUITEM "",                            100
+            END
+            POPUP "フィルタ効果の追加"
+            BEGIN
+                MENUITEM "",                            100
+            END
+        END
+        POPUP "フィルタオブジェクトの追加"
+        BEGIN
+            MENUITEM "",                            100
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "貼り付け",                        1009
+        MENUITEM "空フレームの挿入",                    1098
+        MENUITEM SEPARATOR
+        MENUITEM "元に戻す",                        1010
+        MENUITEM SEPARATOR
+        POPUP "オブジェクトの選択"
+        BEGIN
+            MENUITEM "全てのオブジェクトを選択",                1088
+            MENUITEM "カーソル以降に開始するオブジェクトを選択",        1089
+            MENUITEM "カーソル以前に終了するオブジェクトを選択",        1090
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "グリッド(BPM)の表示",                1013
+        MENUITEM "グリッド(XY軸)の表示",                1082
+        MENUITEM "グリッド(カメラ制御)の表示",              1083
+        MENUITEM "グリッドの設定",                     1091
+        MENUITEM SEPARATOR
+        MENUITEM "フレーム領域外の表示",                  1021
+        MENUITEM "カメラ視点GUIの表示",                 1053
+        MENUITEM "対象レイヤー範囲の表示",                 1093
+        MENUITEM "選択オブジェクトの追従",                 1029
+        MENUITEM "オブジェクトをスナップ",                 1034
+        MENUITEM "画像処理を間引いて表示",                 1061
+        MENUITEM SEPARATOR
+        POPUP "範囲設定"
+        BEGIN
+            MENUITEM "最後のオブジェクト位置を最終フレーム",          1097
+            MENUITEM "現在位置を最終フレーム",                 1092
+        END
+        MENUITEM SEPARATOR
+        POPUP "ファイル"
+        BEGIN
+            MENUITEM "メディアオブジェクトのAVI/BMP出力(RGBA)",  1049
+            MENUITEM SEPARATOR
+            MENUITEM "オブジェクトファイルのインポート",            1037
+            MENUITEM "オブジェクトファイルのエクスポート",           1038
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "環境設定",                        1014
+    END
+END
+
+CONTEXT2 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "フィルタ効果の追加"
+        BEGIN
+            MENUITEM "",                            100
+        END
+        MENUITEM "フィルタ効果の削除",                   4300
+        MENUITEM SEPARATOR
+        MENUITEM "フィルタ効果を上に移動",                 1116
+        MENUITEM "フィルタ効果を下に移動",                 1117
+        MENUITEM SEPARATOR
+        MENUITEM "設定の初期化",                      1105
+        POPUP "設定の保存"
+        BEGIN
+            MENUITEM "現在の設定を初期値にする",                1108
+            MENUITEM "現在の設定でエイリアスを作成する",            1109
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "元に戻す",                        1113
+        MENUITEM SEPARATOR
+        MENUITEM "",                            1110
+    END
+END
+
+CONTEXT3 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "フィルタ効果の追加"
+        BEGIN
+            MENUITEM "",                            100
+        END
+        MENUITEM "フィルタ効果の削除",                   4300
+        MENUITEM SEPARATOR
+        MENUITEM "フィルタ効果を上に移動",                 1116
+        MENUITEM "フィルタ効果を下に移動",                 1117
+        MENUITEM SEPARATOR
+        MENUITEM "設定の初期化",                      1105
+        POPUP "設定の保存"
+        BEGIN
+            MENUITEM "現在の設定を初期値にする",                1108
+            MENUITEM "現在の設定でエイリアスを作成する",            1109
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "元に戻す",                        1113
+        MENUITEM SEPARATOR
+        MENUITEM "",                            1110
+    END
+END
+
+CONTEXT4 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "フィルタ効果の追加"
+        BEGIN
+            MENUITEM "",                            100
+        END
+        MENUITEM "フィルタ効果の削除",                   4300
+        MENUITEM SEPARATOR
+        MENUITEM "フィルタ効果を上に移動",                 1116
+        MENUITEM "フィルタ効果を下に移動",                 1117
+        MENUITEM SEPARATOR
+        MENUITEM "設定の初期化",                      1105
+        POPUP "設定の保存"
+        BEGIN
+            MENUITEM "現在の設定を初期値にする",                1108
+            MENUITEM "現在の設定でエイリアスを作成する",            1109
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "元に戻す",                        1113
+        MENUITEM SEPARATOR
+        MENUITEM "",                            1110
+    END
+END
+
+CONTEXT5 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "フィルタ効果の追加"
+        BEGIN
+            MENUITEM "",                            100
+        END
+        MENUITEM "フィルタ効果の削除",                   4300
+        MENUITEM SEPARATOR
+        MENUITEM "フィルタ効果を上に移動",                 1116
+        MENUITEM "フィルタ効果を下に移動",                 1117
+        MENUITEM SEPARATOR
+        MENUITEM "設定の初期化",                      1105
+        POPUP "設定の保存"
+        BEGIN
+            MENUITEM "現在の設定を初期値にする",                1108
+            MENUITEM "現在の設定でエイリアスを作成する",            1109
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "元に戻す",                        1113
+        MENUITEM SEPARATOR
+        MENUITEM "",                            1110
+    END
+END
+
+CONTEXT6 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "入出力の変更"
+        BEGIN
+            MENUITEM "",                            100
+        END
+    END
+END
+
+CONTEXT7 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "入出力の変更"
+        BEGIN
+            MENUITEM "",                            100
+        END
+    END
+END
+
+CONTEXT8 MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        POPUP "フィルタ効果の追加"
+        BEGIN
+            MENUITEM "",                            100
+        END
+        MENUITEM "フィルタ効果の削除",                   4300
+        MENUITEM SEPARATOR
+        MENUITEM "フィルタ効果を上に移動",                 1116
+        MENUITEM "フィルタ効果を下に移動",                 1117
+        MENUITEM SEPARATOR
+        MENUITEM "設定の初期化",                      1105
+        POPUP "設定の保存"
+        BEGIN
+            MENUITEM "現在の設定を初期値にする",                1108
+            MENUITEM "現在の設定でエイリアスを作成する",            1109
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "元に戻す",                        1113
+        MENUITEM SEPARATOR
+        MENUITEM "",                            1110
+    END
+END
+
+CONTEXTC MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "現在位置に中間点を追加",                 1112
+        MENUITEM "選択区間の長さ変更",                   1111
+        MENUITEM "中間点を時間で均等配置",                 1123
+    END
+END
+
+CONTEXTCOL MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "現在の色をプリセットに保存",               1
+    END
+END
+
+CONTEXTL MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "レイヤーのロック",                    1026
+        MENUITEM "レイヤーの表示",                     1025
+        MENUITEM "レイヤー名を変更",                    1056
+        MENUITEM "他のレイヤーを全表示/非表示",              1075
+        MENUITEM SEPARATOR
+        MENUITEM "レイヤーの挿入",                     1032
+        MENUITEM "レイヤーの削除",                     1033
+        MENUITEM SEPARATOR
+        MENUITEM "座標のリンク",                      1062
+        MENUITEM "上のオブジェクトでクリッピング",             1065
+    END
+END
+
+CONTEXTM MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "移動無し",                        1
+        MENUITEM "直線移動",                        2
+        MENUITEM "加減速移動",                       8
+        MENUITEM "曲線移動",                        3
+        MENUITEM "瞬間移動",                        4
+        MENUITEM "中間点無視",                       5
+        MENUITEM "移動量指定",                       6
+        MENUITEM "ランダム移動",                      7
+        MENUITEM "反復移動",                        9
+        MENUITEM SEPARATOR
+        MENUITEM "加速",                          65
+        MENUITEM "減速",                          33
+        MENUITEM SEPARATOR
+        MENUITEM "設定",                          1122
+    END
+END
+
+CONTEXTN MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "新規プロジェクトの作成",                 1030
+        MENUITEM SEPARATOR
+        MENUITEM "オブジェクトファイルから新規作成",            1037
+        MENUITEM "バックアップファイルから新規作成",            1067
+        MENUITEM SEPARATOR
+        MENUITEM "グリッド(BPM)の表示",                1013
+        MENUITEM "グリッド(XY軸)の表示",                1082
+        MENUITEM "グリッド(カメラ制御)の表示",              1083
+        MENUITEM "グリッドの設定",                     1091
+        MENUITEM SEPARATOR
+        MENUITEM "フレーム領域外の表示",                  1021
+        MENUITEM "カメラ視点GUIの表示",                 1053
+        MENUITEM "対象レイヤー範囲の表示",                 1093
+        MENUITEM "選択オブジェクトの追従",                 1029
+        MENUITEM "オブジェクトをスナップ",                 1034
+        MENUITEM "画像処理を間引いて表示",                 1061
+        MENUITEM SEPARATOR
+        MENUITEM "環境設定",                        1014
+    END
+END
+
+CONTEXTO MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "コピー",                         1008
+        MENUITEM "貼り付け",                        1009
+        MENUITEM "切り取り",                        1094
+        MENUITEM "分割",                          1051
+        MENUITEM SEPARATOR
+        MENUITEM "削除",                          1001
+        MENUITEM SEPARATOR
+        MENUITEM "中間点を追加",                      1015
+        MENUITEM "中間点を削除",                      1016
+        MENUITEM SEPARATOR
+        MENUITEM "グループ化",                       1057
+        MENUITEM "グループ解除",                      1058
+        MENUITEM SEPARATOR
+        MENUITEM "上のオブジェクトでクリッピング",             1069
+        MENUITEM "カメラ制御の対象",                    1081
+        MENUITEM SEPARATOR
+        MENUITEM "長さの変更",                       1055
+        MENUITEM "中間点を時間で均等配置",                 1086
+        MENUITEM SEPARATOR
+        MENUITEM "エイリアスを作成",                    1070
+    END
+END
+
+CONTEXTS MENU
+BEGIN
+    POPUP "context"
+    BEGIN
+        MENUITEM "シーンの設定",                      1096
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+ENV_CONFIG DIALOGEX 0, 0, 176, 384
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "環境設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CTEXT           "",131,7,7,161,12,SS_CENTERIMAGE | NOT WS_GROUP,WS_EX_STATICEDGE
+    LTEXT           "編集画面の時間表示単位",-1,8,30,80,8,NOT WS_GROUP
+    CONTROL         "フレーム",208,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,135,28,35,12
+    CONTROL         "時分秒",209,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,100,28,32,12
+    LTEXT           "設定ダイアログの時間表示単位",-1,8,42,88,8,NOT WS_GROUP
+    CONTROL         "フレーム",210,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,135,40,35,12
+    CONTROL         "時分秒",211,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,100,40,32,12
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,56,162,1
+    LTEXT           "レイヤーの幅",-1,8,63,45,8,NOT WS_GROUP
+    CONTROL         "大",212,"Button",BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,92,61,20,12
+    CONTROL         "中",213,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,118,61,20,12
+    CONTROL         "小",214,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,144,61,20,12
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,76,162,1
+    CONTROL         "再生ウィンドウで再生した時にカーソルを連動",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,84,140,12
+    CONTROL         "カーソル移動時に自動でスクロール",202,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,96,116,12
+    CONTROL         "D＆D読み込み時に複数オブジェクトをグループ化",205,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,108,148,12
+    CONTROL         "ファイルの場所が変更された時にプロジェクトパスから読む",203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,120,168,12
+    CONTROL         "中間点追加・分割時に中間の値を反映する",207,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,132,136,12
+    CONTROL         "中間点追加・分割を常に現在フレームで行う",216,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,144,136,12
+    CONTROL         "オブジェクトの端をつまむ時に隣接するオブジェクトも選択",217,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,155,164,12
+    CONTROL         "分割時にグループを別々にする",215,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,166,108,12
+    CONTROL         "RGB色空間で飽和",206,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,178,88,12
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,242,162,1
+    CONTROL         "自動バックアップを有効",204,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,200,80,12
+    LTEXT           "バックアップの間隔（分)",-1,8,214,72,8,NOT WS_GROUP
+    EDITTEXT        179,128,212,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "バックアップファイルの最大数",-1,8,226,111,8,NOT WS_GROUP
+    EDITTEXT        178,128,224,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,194,162,1
+    LTEXT           "動画ファイルのハンドル数",-1,8,250,80,8,NOT WS_GROUP
+    EDITTEXT        173,128,248,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "画像データのキャッシュ数",-1,8,262,92,8,NOT WS_GROUP
+    EDITTEXT        174,128,260,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "最大画像サイズ",-1,8,288,52,8,NOT WS_GROUP
+    EDITTEXT        175,79,286,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "×",-1,120,288,7,8,NOT WS_GROUP
+    EDITTEXT        176,128,286,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "(未指定ならAviUtlの最大サイズ設定を引き継ぎます)",-1,8,299,148,8,NOT WS_GROUP
+    LTEXT           "シャドウマップサイズ",-1,8,312,52,8,NOT WS_GROUP
+    EDITTEXT        177,128,310,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "(カメラ制御のシャドーを使用した時のみ確保されます)",-1,8,323,148,8,NOT WS_GROUP
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,278,162,1
+    LTEXT           "※最大画像サイズ、シャドウマップサイズはAviUtlの再起動後に有効になります",-1,8,336,160,20,NOT WS_GROUP
+    PUSHBUTTON      "OK",1,41,361,44,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,91,361,44,14,BS_CENTER
+END
+
+GET_COLOR DIALOGEX 0, 0, 222, 150
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "色の選択"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "",132,8,8,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",133,8,22,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",134,8,36,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",135,8,50,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",136,8,64,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",137,8,78,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",138,8,92,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",139,8,106,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",140,22,8,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",141,22,22,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",142,22,36,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",143,22,50,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",144,22,64,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",145,22,78,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",146,22,92,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",147,22,106,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",148,36,8,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",149,36,22,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",150,36,36,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",151,36,50,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",152,36,64,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",153,36,78,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",154,36,92,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",155,36,106,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",156,50,8,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",157,50,22,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",158,50,36,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",159,50,50,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",160,50,64,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",161,50,78,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",162,50,92,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",163,50,106,13,13,SS_NOTIFY | SS_SUNKEN | NOT WS_GROUP
+    LTEXT           "",131,70,8,40,40,NOT WS_GROUP,WS_EX_CLIENTEDGE | WS_EX_STATICEDGE
+    CONTROL         "R",-1,"Static",SS_LEFTNOWORDWRAP,70,58,7,10
+    EDITTEXT        171,78,54,32,14,ES_RIGHT | ES_NUMBER,WS_EX_CLIENTEDGE | WS_EX_RIGHT
+    CONTROL         "UpDown1",111,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,110,85,9,14
+    CONTROL         "G",-1,"Static",SS_LEFTNOWORDWRAP,70,74,7,10
+    EDITTEXT        172,78,70,32,14,ES_RIGHT | ES_NUMBER,WS_EX_CLIENTEDGE | WS_EX_RIGHT
+    CONTROL         "UpDown2",112,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,110,53,9,14
+    CONTROL         "B",-1,"Static",SS_LEFTNOWORDWRAP,70,90,7,10
+    EDITTEXT        173,78,86,32,14,ES_RIGHT | ES_NUMBER,WS_EX_CLIENTEDGE | WS_EX_RIGHT
+    CONTROL         "UpDown3",113,"msctls_updown32",UDS_SETBUDDYINT | UDS_ALIGNRIGHT | UDS_AUTOBUDDY | UDS_ARROWKEYS,110,69,9,14
+    PUSHBUTTON      "",121,96,106,14,14,BS_ICON | BS_CENTER
+    PUSHBUTTON      "色指定無し",122,16,129,40,14,BS_CENTER
+    PUSHBUTTON      "OK",1,72,129,40,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,116,129,40,14,BS_CENTER
+END
+
+GET_LAYER_NAME DIALOGEX 0, 0, 132, 44
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "レイヤー名"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        171,8,6,116,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",1,23,24,40,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,69,24,40,14,BS_CENTER
+END
+
+GET_LENGTH DIALOGEX 0, 0, 124, 60
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "長さの変更"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "秒数指定：",-1,8,10,48,8,NOT WS_GROUP
+    EDITTEXT        172,56,8,40,12
+    LTEXT           "秒",-1,98,10,13,8,NOT WS_GROUP
+    LTEXT           "フレーム数指定：",-1,8,22,48,8,NOT WS_GROUP
+    EDITTEXT        171,56,20,40,12
+    LTEXT           "フレーム",-1,98,22,24,8,NOT WS_GROUP
+    PUSHBUTTON      "OK",1,20,40,40,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,64,40,40,14,BS_CENTER
+END
+
+GET_PARAM DIALOGEX 0, 0, 256, 40
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "パラメータ設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        171,4,5,248,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",1,86,22,40,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,131,22,40,14,BS_CENTER
+END
+
+GET_PARAM_SMALL DIALOGEX 0, 0, 72, 20
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "パラメータ設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    EDITTEXT        171,4,4,64,12
+END
+
+GET_SCENE DIALOGEX 0, 0, 85, 195
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE
+EXSTYLE WS_EX_TOOLWINDOW
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LISTBOX         190,0,0,85,195,WS_VSCROLL | WS_TABSTOP
+    CONTROL         "シーンの長さを合わせる",201,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,4,198,78,12
+    CONTROL         "シーンを逆再生",202,"Button",BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,4,210,78,12
+END
+
+GRID_CONFIG DIALOGEX 0, 0, 186, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "グリッドの設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "グリッド(BPM)の表示間隔",-1,8,8,60,8,NOT WS_GROUP
+    LTEXT           "テンポ",-1,88,8,20,8,NOT WS_GROUP
+    EDITTEXT        171,108,6,32,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "拍子",-1,148,8,16,8,NOT WS_GROUP
+    EDITTEXT        184,164,6,16,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "基準フレーム番号",-1,88,20,52,8,NOT WS_GROUP
+    EDITTEXT        172,140,18,40,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,32,174,1
+    LTEXT           "グリッド(XY軸)の表示間隔",-1,8,37,72,8,NOT WS_GROUP
+    LTEXT           "横幅",-1,102,37,14,8,NOT WS_GROUP
+    EDITTEXT        180,119,35,20,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "縦幅",-1,142,37,14,8,NOT WS_GROUP
+    EDITTEXT        181,160,35,20,12,0,WS_EX_CLIENTEDGE
+    CONTROL         "",-1,"Static",SS_ETCHEDFRAME,6,50,174,1
+    LTEXT           "グリッド(カメラ制御)の表示間隔",-1,8,55,84,8,NOT WS_GROUP
+    LTEXT           "幅",-1,102,55,14,8,NOT WS_GROUP
+    EDITTEXT        182,119,53,20,12,0,WS_EX_CLIENTEDGE
+    LTEXT           "数量",-1,142,55,16,8,NOT WS_GROUP
+    EDITTEXT        183,160,53,20,12,0,WS_EX_CLIENTEDGE
+    PUSHBUTTON      "OK",1,47,73,44,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,96,73,44,14,BS_CENTER
+END
+
+NEW_FILE DIALOGEX 0, 0, 122, 100
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "新規プロジェクトの作成"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "画像サイズ",-1,12,12,33,8,NOT WS_GROUP
+    EDITTEXT        171,60,9,20,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "×",-1,81,12,8,8,NOT WS_GROUP
+    EDITTEXT        172,89,9,20,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "フレームレート",-1,12,28,44,8,NOT WS_GROUP
+    EDITTEXT        173,60,25,36,12,ES_AUTOHSCROLL,WS_EX_CLIENTEDGE
+    LTEXT           "fps",-1,98,28,12,8,NOT WS_GROUP
+    LTEXT           "音声レート",-1,12,44,40,8,NOT WS_GROUP
+    EDITTEXT        174,60,41,36,12,ES_NUMBER,WS_EX_CLIENTEDGE
+    LTEXT           "Hz",-1,98,44,12,8,NOT WS_GROUP
+    CONTROL         "読み込むファイルに合わせる",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,12,60,92,12
+    PUSHBUTTON      "OK",1,18,78,40,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,64,78,40,14,BS_CENTER
+END
+
+SAVE_OBJECT DIALOGEX 0, 0, 188, 62
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "エイリアスの作成"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "エイリアス名",-1,8,8,44,8,NOT WS_GROUP
+    EDITTEXT        171,52,6,128,12,ES_AUTOHSCROLL
+    LTEXT           "格納フォルダ",-1,8,24,44,8,NOT WS_GROUP
+    EDITTEXT        172,52,22,128,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "OK",1,80,42,48,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,132,42,48,14,BS_CENTER
+END
+
+SCENE_CONFIG DIALOGEX 0, 0, 204, 84
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "シーンの設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "シーン名",-1,8,10,32,8,NOT WS_GROUP
+    EDITTEXT        171,44,8,152,12
+    LTEXT           "画像サイズ",-1,8,26,32,8,NOT WS_GROUP
+    EDITTEXT        172,44,24,36,12,ES_NUMBER
+    LTEXT           "×",-1,81,26,8,8,NOT WS_GROUP
+    EDITTEXT        173,89,24,36,12,ES_NUMBER
+    LTEXT           "※未指定なら標準サイズ",-1,128,26,68,8,NOT WS_GROUP
+    CONTROL         "アルファチャンネルあり",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,44,42,68,12
+    PUSHBUTTON      "OK",1,50,62,48,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,105,62,48,14,BS_CENTER
+END
+
+SCRIPT_PARAM DIALOGEX 0, 0, 132, 278
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "パラメータ設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "Param1",131,8,10,52,8,NOT WS_GROUP
+    EDITTEXT        171,60,8,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param2",132,8,24,52,8,NOT WS_GROUP
+    EDITTEXT        172,60,22,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param3",133,8,38,52,8,NOT WS_GROUP
+    EDITTEXT        173,60,36,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param4",134,8,52,52,8,NOT WS_GROUP
+    EDITTEXT        174,60,50,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param5",135,8,66,52,8,NOT WS_GROUP
+    EDITTEXT        175,60,64,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param6",136,8,80,52,8,NOT WS_GROUP
+    EDITTEXT        176,60,78,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param7",137,8,94,52,8,NOT WS_GROUP
+    EDITTEXT        177,60,92,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param8",138,8,108,52,8,NOT WS_GROUP
+    EDITTEXT        178,60,106,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param9",139,8,122,52,8,NOT WS_GROUP
+    EDITTEXT        179,60,120,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param10",140,8,136,52,8,NOT WS_GROUP
+    EDITTEXT        180,60,134,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param11",141,8,150,52,8,NOT WS_GROUP
+    EDITTEXT        181,60,148,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param12",142,8,164,52,8,NOT WS_GROUP
+    EDITTEXT        182,60,162,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param13",143,8,178,52,8,NOT WS_GROUP
+    EDITTEXT        183,60,176,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param14",144,8,192,52,8,NOT WS_GROUP
+    EDITTEXT        184,60,190,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param15",145,8,206,52,8,NOT WS_GROUP
+    EDITTEXT        185,60,204,64,12,ES_AUTOHSCROLL
+    LTEXT           "Param16",146,8,220,52,8,NOT WS_GROUP
+    EDITTEXT        186,60,218,64,12,ES_AUTOHSCROLL
+    CONTROL         "リアルタイムでプレビューする",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,238,88,12
+    PUSHBUTTON      "OK",1,16,256,48,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,68,256,48,14,BS_CENTER
+    CONTROL         "",202,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,116,176,16,12
+    CONTROL         "",203,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,116,176,16,12
+    CONTROL         "",204,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,116,176,16,12
+    CONTROL         "",205,"Button",BS_AUTOCHECKBOX | NOT WS_VISIBLE | WS_TABSTOP,116,176,16,12
+    PUSHBUTTON      "btn1",121,118,188,14,12,BS_CENTER | NOT WS_VISIBLE
+    PUSHBUTTON      "btn2",122,118,188,14,12,BS_CENTER | NOT WS_VISIBLE
+    PUSHBUTTON      "btn3",123,118,188,14,12,BS_CENTER | NOT WS_VISIBLE
+    PUSHBUTTON      "btn4",124,118,188,14,12,BS_CENTER | NOT WS_VISIBLE
+END
+
+TEXT_CONFIG DIALOGEX 0, 0, 112, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "テキスト詳細設定"
+FONT 9, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    LTEXT           "文字間隔",-1,8,10,34,8,NOT WS_GROUP
+    EDITTEXT        171,44,8,24,12
+    LTEXT           "(±100まで)",-1,70,10,36,8,NOT WS_GROUP
+    LTEXT           "行間隔",-1,8,24,32,8,NOT WS_GROUP
+    EDITTEXT        172,44,22,24,12
+    LTEXT           "(±100まで)",-1,70,24,36,8,NOT WS_GROUP
+    CONTROL         "高精度モード",201,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,40,52,12
+    CONTROL         "滑らかにする",203,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,60,40,48,12
+    CONTROL         "等間隔モード",202,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,8,52,52,12
+    PUSHBUTTON      "OK",1,18,69,36,14,BS_CENTER
+    PUSHBUTTON      "キャンセル",2,58,69,36,14,BS_CENTER
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#define APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "#include <windows.h>\r\n"
+    "#include <commctrl.h>\r\n"
+    "#undef APSTUDIO_HIDDEN_SYMBOLS\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    "ENV_CONFIG", DIALOG
+    BEGIN
+    END
+
+    "GET_COLOR", DIALOG
+    BEGIN
+    END
+
+    "GET_LAYER_NAME", DIALOG
+    BEGIN
+    END
+
+    "GET_LENGTH", DIALOG
+    BEGIN
+    END
+
+    "GET_PARAM", DIALOG
+    BEGIN
+    END
+
+    "GET_PARAM_SMALL", DIALOG
+    BEGIN
+    END
+
+    "GET_SCENE", DIALOG
+    BEGIN
+    END
+
+    "GRID_CONFIG", DIALOG
+    BEGIN
+    END
+
+    "NEW_FILE", DIALOG
+    BEGIN
+    END
+
+    "SAVE_OBJECT", DIALOG
+    BEGIN
+    END
+
+    "SCENE_CONFIG", DIALOG
+    BEGIN
+    END
+
+    "SCRIPT_PARAM", DIALOG
+    BEGIN
+    END
+
+    "TEXT_CONFIG", DIALOG
+    BEGIN
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+ENV_CONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GET_COLOR AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GET_LAYER_NAME AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GET_LENGTH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GET_PARAM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GET_PARAM_SMALL AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GET_SCENE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+GRID_CONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+NEW_FILE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+SAVE_OBJECT AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+SCENE_CONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+SCRIPT_PARAM AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+TEXT_CONFIG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
