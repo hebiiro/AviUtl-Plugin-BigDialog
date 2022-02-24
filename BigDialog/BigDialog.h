@@ -27,6 +27,7 @@
 	true_##procName = (Type_##procName)::GetProcAddress(module, #procName)
 
 #define ATTACH_HOOK_PROC(name) DetourAttach((PVOID*)&true_##name, hook_##name)
+#define DETACH_HOOK_PROC(name) DetourDetach((PVOID*)&true_##name, hook_##name)
 
 //---------------------------------------------------------------------
 // Api Hook

@@ -32,8 +32,5 @@
     <ResourceCompile Include="BigDialog.rc">
       <Filter>Resource</Filter>
     </ResourceCompile>
-    <ResourceCompile Include="aviutl.rc">
-      <Filter>Resource</Filter>
-    </ResourceCompile>
   </ItemGroup>
 </Project>

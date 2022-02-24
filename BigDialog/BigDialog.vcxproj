@@ -194,7 +194,6 @@
     <None Include="BigDialog.def" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="aviutl.rc" />
     <ResourceCompile Include="BigDialog.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

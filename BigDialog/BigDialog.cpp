@@ -27,7 +27,6 @@ void initHook()
 	DetourTransactionBegin();
 	DetourUpdateThread(::GetCurrentThread());
 
-//	ATTACH_HOOK_PROC(FindResourceA);
 	ATTACH_HOOK_PROC(DialogBoxParamA);
 	ATTACH_HOOK_PROC(CreateDialogParamA);
 	ATTACH_HOOK_PROC(GetOpenFileNameA);
@@ -89,21 +88,6 @@ EXTERN_C BOOL APIENTRY DllMain(HINSTANCE instance, DWORD reason, LPVOID reserved
 }
 
 //---------------------------------------------------------------------
-
-IMPLEMENT_HOOK_PROC(HRSRC, WINAPI, FindResourceA, (HMODULE module, LPCSTR name, LPCSTR type))
-{
-	MY_TRACE(_T("FindResourceA(0x%08X, %d, %d)\n"), module, name, type);
-
-	if (type == RT_DIALOG)
-	if (module == ::GetModuleHandle(_T("exedit.auf")) ||
-		module == ::GetModuleHandle(0))
-	{
-		MY_TRACE(_T("ダイアログを置き換えます\n"));
-		module = g_instance;
-	}
-
-	return true_FindResourceA(module, name, type);
-}
 
 IMPLEMENT_HOOK_PROC_NULL(INT_PTR, WINAPI, DialogBoxParamA, (HINSTANCE instance, LPCSTR templateName, HWND parent, DLGPROC dialogFunc, LPARAM initParam))
 {
