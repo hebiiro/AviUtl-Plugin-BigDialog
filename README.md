@@ -1,7 +1,8 @@
 # AviUtl プラグイン - ダイアログ巨大化
 
-* version 2.0.0 by 蛇色 - 2022/02/24 リソースがおかしかった問題を修正
-* version 1.0.0 by 蛇色 - 2022/02/06 初版
+* 3.0.0 by 蛇色 - 2022/05/09 「新規プロジェクトの作成」を修正
+* 2.0.0 by 蛇色 - 2022/02/24 リソースがおかしかった問題を修正
+* 1.0.0 by 蛇色 - 2022/02/06 初版
 
 AviUtl のダイアログを巨大化してテキストが途切れないようにします。
 
@@ -17,5 +18,10 @@ AviUtl のダイアログを巨大化してテキストが途切れないよう�
 ## 動作確認
 
 * (必須) AviUtl 1.10 & 拡張編集 0.92 http://spring-fragrance.mints.ne.jp/aviutl/
-* (共存確認) patch.aul r13 https://www.nicovideo.jp/watch/sm40087155
-* (共存確認) eclipse_fast 1.00 https://www.nicovideo.jp/watch/sm39756003
+* (共存確認) patch.aul r21 https://scrapbox.io/ePi5131/patch.aul
+
+## クレジット
+
+* Microsoft Research Detours Package https://github.com/microsoft/Detours
+* aviutl_exedit_sdk https://github.com/ePi5131/aviutl_exedit_sdk
+* Common Library https://github.com/hebiiro/Common-Library
